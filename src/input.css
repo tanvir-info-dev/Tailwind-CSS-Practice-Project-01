@@ -14,6 +14,12 @@
   .site_container {
     @apply max-w-[1314px] mx-auto;
   }
+  .section_tag{
+    @apply border border-dashed border-[rgba(22,21,25,0.15)] rounded-[34px] px-3.5 text-dark font-medium text-lg tracking-[-0.01em] leading-[1.89] text-center w-fit mx-auto;
+  }
+  .section_title{
+    @apply mt-5 text-dark tracking-[-0.02em] font-semibold leading-[117%] text-5xl text-center;
+  }
   .btn_wrapper{
     @apply flex gap-[14px];
   }
