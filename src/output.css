@@ -244,6 +244,12 @@
   .mt-\[55px\] {
     margin-top: 55px;
   }
+  .mr-0 {
+    margin-right: 0;
+  }
+  .mr-0\.5 {
+    margin-right: calc(var(--spacing) * 0.5);
+  }
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
   }
@@ -267,6 +273,18 @@
   }
   .mb-\[38px\] {
     margin-bottom: 38px;
+  }
+  .ml-0 {
+    margin-left: 0;
+  }
+  .ml-0\.5 {
+    margin-left: calc(var(--spacing) * 0.5);
+  }
+  .ml-1 {
+    margin-left: var(--spacing);
+  }
+  .ml-2 {
+    margin-left: calc(var(--spacing) * 2);
   }
   .ml-5 {
     margin-left: calc(var(--spacing) * 5);
