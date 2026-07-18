@@ -7,7 +7,7 @@
 }
 @layer base {
   body {
-    @apply font-inter;
+    @apply font-inter text-[#494851];
   }
 }
 @layer components {
@@ -18,10 +18,16 @@
     @apply flex gap-[14px];
   }
   .btn_1{
-    @apply bg-primary text-white font-semibold py-3 rounded-full px-6 inline-block hover:bg-white hover:text-dark transition duration-300;
+    @apply bg-primary text-white font-semibold py-[11px] rounded-full px-6 inline-block hover:bg-white hover:text-dark transition duration-300;
+  }
+  .btn_11{
+    @apply bg-primary text-white font-semibold py-[11px] rounded-full px-6 inline-block hover:bg-dark hover:text-white transition duration-300;
   }
   .btn_2{
-    @apply bg-white text-dark font-semibold py-3 rounded-full px-6 inline-block hover:bg-primary hover:text-white transition duration-300;
+    @apply bg-white text-dark font-semibold py-[11px] rounded-full px-6 inline-block hover:bg-primary hover:text-white transition duration-300;
+  }
+  .btn_22{
+    @apply bg-white text-dark font-semibold py-[11px] rounded-full px-6 inline-block border border-dark hover:border-primary hover:bg-primary hover:text-white transition duration-300;
   }
   .btn_3{
     @apply bg-white text-dark font-semibold py-2.5 rounded-full px-5 inline-block cursor-pointer hover:bg-dark hover:text-white transition duration-300;
